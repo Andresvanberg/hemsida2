@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body,html{
+
+    height: 100%;
+    margin: 0;
+    font-family: 'Ubunto', sans-serif;
+    line-height: 180%;
+    color: #666;
+    text-align: center;
+
+}
+
+.nav{
+    background-color: red;
+    cursor: pointer;
+    position: static;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 100;
+    top: 0;
+    align-items: center;
+    width: 100wv;
+    width: 97.8%;
+}
+.nav > li{
+
+    display: inline-block;
+    padding: 0 25px 0 25px;
+
+}
+.nav > li > a {
+    text-decoration: none;
+    color:violet;
+}
+.nav > li > a.hover{
+    color: #c1c1c1;
+}
+.parallax1{
+
+    background: url(img/pexels-guillaume-meurice-1894350.jpg);
+    min-height: 100%;
+
+}
+.parallax2{
+
+    background: url(img/pexels-neha-pandey-2446439.jpg);
+    min-height: 60%; 
+}
+.parallax3{
+
+    background: url(img/wallpaperflare.com_wallpaper\ \(1\).jpg);
+    min-height: 40%;
+}
+.parallax4{
+
+    background: url(img/wallpaperflare.com_wallpaper\ \(2\).jpg);
+    min-height: 40%;
+}
+.parallax5{
+
+    background: url(img/pexels-oleg-magni-2033981.jpg);
+    min-height: 100%;
+
+}
+.parallax1, .parallax2, .parallax3, .parallax4, .parallax5{
+
+    position: relative;
+    opacity: .75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.heding{
+
+    position: sticky;
+    color: black;
+    font-size: 550%;
+    top: 38%;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow: 0 0 10px #000;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+}
+.heding-sm{
+
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    color: #fff;
+    font-size: 250%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #000;
+
+
+}
+.tow-col{
+    float: left;
+    width: 42%;
+    padding: 0 4%;
+    text-align: center
+}
+section{
+
+    overflow: auto;
+    padding: 50px 80px;
+}
+.dark{
+
+    overflow: auto;
+    padding: 50px 80px;
+    background-color: rgb(74, 74, 119);
+    color: #17f317;
+
+}
+
+
+@media (max-width: 768px) {
+
+    .heding{
+        font-size: 250%;
+
+    }
+    .heding-sm{
+
+        font-size: 180%;
+
+    }
+    .tow-col{
+        width: 100%;
+        padding: 0;
+
+    }
+
+    .nav{
+
+        text-align: center;
+        width: 93%;
+
+    }
+    
+}
