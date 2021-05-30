@@ -32,28 +32,43 @@ window.scrollTo({
 });
 $("#Aboute").click( function(){
 
-  console.log("Aboute");
+  console.log("Skada?");
   
   window.scrollTo({
-    top: 2000,
+    top: 1200,
     left: 0,
     behavior: 'smooth'
     });
   });
+$("#Fakta").click( function(){
 
-/*
- $(window).scroll(function(){ 
-    var $el = $("nav"); 
-    var isPositionFixed = ($el.css('position') == 'fixed');
-    if ($(this).scrollTop() > 200 && !isPositionFixed){ 
-      $el.css({'position': 'fixed', 'top': '0', 'z-index': '100'}); 
-      console.log('hej');
-    }
-    if ($(this).scrollTop() < 200 && isPositionFixed){
-      $el.css({'position': 'static', 'top': ''}); 
-      console.log('då');
-    } 
-  });
+    console.log("Fakta");
+    
+    window.scrollTo({
+      top: 2200,
+      left: 0,
+      behavior: 'smooth'
+      });
+    });
+$("#effektrer").click( function(){
 
+      console.log("effektrer");
+      
+      window.scrollTo({
+        top: 3000,
+        left: 0,
+        behavior: 'smooth'
+        });
+      });
+$("#info").click( function(){
 
-  */
+        console.log("info");
+        
+        window.scrollTo({
+          top: 3700,
+          left: 0,
+          behavior: 'smooth'
+          });
+        });
+
+        
