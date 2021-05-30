@@ -1,3 +1,4 @@
+$(".nav").css({'position': 'static', 'background-color': 'white'});
 document.addEventListener("scroll", myScroll);
 
 function myScroll(){

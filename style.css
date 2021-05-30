@@ -12,9 +12,9 @@ body,html{
 }
 
 .nav{
-    background-color: red;
+    background-color: blue;
     cursor: pointer;
-    position: static;
+    position: fixed;
     object-fit: cover;
     margin-left: auto;
     margin-right: auto;
@@ -23,6 +23,7 @@ body,html{
     align-items: center;
     width: 100wv;
     width: 97.8%;
+    
 }
 .nav > li{
 
@@ -86,6 +87,7 @@ body,html{
     background-attachment: fixed;
     margin-bottom: 50px;
 }
+
 .heding-sm{
 
     position: absolute;
