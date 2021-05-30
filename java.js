@@ -7,11 +7,11 @@ console.log(document.documentElement.scrollTop);
 
 if(document.documentElement.scrollTop>=920){
 
-  $(".nav").css({'position': 'fixed', 'background-color': 'blue', 'margin-left': 'auto',  });
+  $(".nav").css({'position': 'fixed', 'margin-left': 'auto',  });
 
   }
   else {
-    $(".nav").css({'position': 'static', 'background-color': 'white'});
+    $(".nav").css({'position': 'static'});
 
   }
 }

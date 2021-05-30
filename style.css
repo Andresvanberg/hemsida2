@@ -10,31 +10,71 @@ body,html{
     text-align: center;
 
 }
+header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    float: left;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+header h1 {
+    float: left;
+}
+
+header ul {
+    float: right;
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+header ul li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+}
+
+header ul li a {
+    margin: 0;
+    padding: 10px 20px;
+    display: block;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
 
 .nav{
     background-color: blue;
     cursor: pointer;
-    position: fixed;
-    object-fit: cover;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 100;
+    z-index: 1;
     top: 0;
     align-items: center;
-    width: 100wv;
-    width: 97.8%;
-    border-radius: 100%;
+    width: auto;
+    border-radius: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px;
+    border-color: black;
+    height: auto;
     
 }
 .nav > li{
 
     display: inline-block;
     padding: 0 25px 0 25px;
+    border-color: black;
+    border-style: solid;
 
 }
 .nav > li > a {
     text-decoration: none;
-    color:violet;
+    color:#000000;
 }
 .nav > li > a.hover{
     color: #c1c1c1;
