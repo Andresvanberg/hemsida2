@@ -85,7 +85,7 @@ p::first-letter {
   }
 .parallax1{
 
-    background: url(img/pexels-guillaume-meurice-1894350.jpg);
+    background: url(img/pexels-guillaume-meurice-1894350\ \(1\).jpg);
     min-height: 100%;
 
 }
@@ -107,22 +107,22 @@ p::first-letter {
 }
 .parallax2{
 
-    background: url(img/pexels-neha-pandey-2446439.jpg);
+    background: url(img/pexels-neha-pandey-2446439\ \(1\).jpg);
     min-height: 60%; 
 }
 .parallax3{
 
-    background: url(img/wallpaperflare.com_wallpaper\ \(1\).jpg);
+    background: url(img/pexels-sebastian-voortman-189349.jpg);
     min-height: 40%;
 }
 .parallax4{
 
-    background: url(img/wallpaperflare.com_wallpaper\ \(2\).jpg);
+    background: url(img/pexels-belle-co-847393.jpg);
     min-height: 40%;
 }
 .parallax5{
 
-    background: url(img/pexels-oleg-magni-2033981.jpg);
+    background: url(img/pexels-oleg-magni-2033981\ \(1\).jpg);
     min-height: 100%;
 
 }
@@ -167,6 +167,7 @@ p::first-letter {
     width: 42%;
     padding: 0 4%;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 section{
 
@@ -177,8 +178,8 @@ section{
 
     overflow: auto;
     padding: 50px 80px;
-    background-color: rgb(74, 74, 119);
-    color: #17f317;
+    background-color: rgb(160, 160, 192);
+    color: #000000;
 
 }
 

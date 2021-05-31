@@ -48,6 +48,3 @@ $("#info").click( function(){
           behavior: 'smooth'
           });
         });
-
-
-        
