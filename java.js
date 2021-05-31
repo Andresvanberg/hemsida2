@@ -1,25 +1,3 @@
-$(".nav").css({'position': 'static', 'background-color': 'white'});
-document.addEventListener("scroll", myScroll);
-
-function myScroll(){
-
-console.log(document.documentElement.scrollTop);
-
-if(document.documentElement.scrollTop>=920){
-
-  $(".nav").css({'position': 'fixed', 'margin-left': 'auto',  });
-
-  }
-  else {
-    $(".nav").css({'position': 'static'});
-
-  }
-}
-
-
-
-
-
 $("#home").click( function(){
 
 console.log("home");
@@ -70,5 +48,6 @@ $("#info").click( function(){
           behavior: 'smooth'
           });
         });
+
 
         

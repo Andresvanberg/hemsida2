@@ -79,10 +79,30 @@ header ul li a {
 .nav > li > a.hover{
     color: #c1c1c1;
 }
+p::first-letter {
+    font-size: 200%;
+    color: black;
+  }
 .parallax1{
 
     background: url(img/pexels-guillaume-meurice-1894350.jpg);
     min-height: 100%;
+
+}
+#fisk{
+
+    width: 40%;
+    height: 100%;
+}
+#trash{
+
+    width: 40%;
+    height: 100%;
+
+}
+#dödfisk{
+    width: 40%;
+    height: 100%;
 
 }
 .parallax2{
@@ -146,7 +166,7 @@ header ul li a {
     float: left;
     width: 42%;
     padding: 0 4%;
-    text-align: center
+    text-align: center;
 }
 section{
 
