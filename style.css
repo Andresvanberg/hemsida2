@@ -11,14 +11,15 @@ body,html{
 
 }
 header {
-    background-color: #ffffff;
-    padding: 20px 0;
+    background-color: #a3e3ff;
+    padding: 20px 10px;
     float: left;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 10;
+
 }
 
 header h1 {
@@ -62,7 +63,7 @@ header ul li a {
     border: 5px;
     border-color: black;
     height: auto;
-    
+
 }
 .nav > li{
 
@@ -85,7 +86,7 @@ p::first-letter {
   }
 .parallax1{
 
-    background: url(img/pexels-guillaume-meurice-1894350\ \(1\).jpg);
+    background: url(img/pexels-anastasia-shuraeva-8466721.jpg);
     min-height: 100%;
 
 }
@@ -107,22 +108,22 @@ p::first-letter {
 }
 .parallax2{
 
-    background: url(img/pexels-neha-pandey-2446439\ \(1\).jpg);
-    min-height: 60%; 
+    background: url(img/pexels-anastasia-shuraeva-8466771.jpg);
+    min-height: 60%;
 }
 .parallax3{
 
-    background: url(img/pexels-sebastian-voortman-189349.jpg);
-    min-height: 40%;
+    background: url(img/pexels-anastasia-shuraeva-8466717.jpg);
+    min-height: 60%;
 }
 .parallax4{
 
-    background: url(img/pexels-belle-co-847393.jpg);
-    min-height: 40%;
+    background: url(img/pexels-anna-shvets-11378024.jpg);
+    min-height: 60%;
 }
 .parallax5{
 
-    background: url(img/pexels-oleg-magni-2033981\ \(1\).jpg);
+    background: url(img/pexels-alex-green-5693056.jpg);
     min-height: 100%;
 
 }
@@ -144,9 +145,9 @@ p::first-letter {
     width: 100%;
     text-transform: uppercase;
     letter-spacing: 8px;
-    text-shadow: 0 0 10px #000;
     background-attachment: fixed;
     margin-bottom: 50px;
+    text-shadow: 0 0 20px white;
 }
 
 .heding-sm{
@@ -178,7 +179,7 @@ section{
 
     overflow: auto;
     padding: 50px 80px;
-    background-color: rgb(228, 228, 255);
+    background-color: #fff4ad;
     color: #000000;
 
 }
@@ -207,5 +208,5 @@ section{
         width: 93%;
 
     }
-    
+
 }
