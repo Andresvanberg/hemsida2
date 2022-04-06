@@ -10,15 +10,16 @@ body,html{
     text-align: center;
 
 }
+#myLinks{
+  display: hidden;
+
+}
 header {
-    background-color: #a3e3ff;
+    background-color: green;
     padding: 20px 10px;
     float: left;
     width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 10;
+    position: static;
 
 }
 
@@ -85,6 +86,8 @@ p::first-letter {
     color: black;
   }
 .parallax1{
+
+
 
     background: url(img/pexels-anastasia-shuraeva-8466721.jpg);
     min-height: 100%;

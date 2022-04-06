@@ -10,13 +10,14 @@ window.scrollTo({
 });
 $("#Aboute").click( function(){
 
-  console.log("Skada?");
+  console.log("tjock");
 
-  window.scrollTo({
-    top: 1200,
-    left: 0,
-    behavior: 'smooth'
-    });
+  var element = document.getElementByClass(".tow-col");
+
+  element.scrollIntoView();
+  element.scrollIntoView({block: "start"});
+  element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+
   });
 $("#Fakta").click( function(){
 
