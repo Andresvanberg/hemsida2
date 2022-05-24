@@ -2,8 +2,6 @@
 
 $("#home").click( function(){
 
-  $("#home").click( function(){
-
   console.log("home");
 
   window.scrollTo({

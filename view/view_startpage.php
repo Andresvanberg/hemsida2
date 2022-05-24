@@ -1,6 +1,9 @@
+<?php
+class view_startpage{
+  
+function printpage(){
 
-
-<!DOCTYPE html>
+echo <<<html
 
 <html lang="sv">
 <head>
@@ -122,3 +125,7 @@
     </script>
 </body>
 </html>
+
+html;
+  }
+}
