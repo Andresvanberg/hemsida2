@@ -1,13 +1,17 @@
+
+
 $("#home").click( function(){
 
-console.log("home");
+  $("#home").click( function(){
 
-window.scrollTo({
-  top: 0,
-  left: 0,
-  behavior: 'smooth'
+  console.log("home");
+
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+    });
   });
-});
 $("#Aboute").click( function(){
 
   console.log("tjock");
@@ -19,33 +23,44 @@ $("#Aboute").click( function(){
   element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 
   });
-$("#Fakta").click( function(){
+  //     $("#Aboute").click( function(){
+  //     var scroll = document.getElementById("#ruta1");
+  //       var x = document.getElementById("myLinks");
+  //       if (x.style.display === "block") {
+  //   x.style.display = "none";
+  // } else {
+  //   x.style.display = "block";
+  // }
 
-    console.log("Fakta");
 
-    window.scrollTo({
-      top: 2200,
-      left: 0,
-      behavior: 'smooth'
-      });
-    });
-$("#effektrer").click( function(){
+  //  });
+  $("#Fakta").click( function(){
 
-      console.log("effektrer");
+      console.log("Fakta");
 
       window.scrollTo({
-        top: 3000,
+        top: 2200,
         left: 0,
         behavior: 'smooth'
         });
       });
-$("#info").click( function(){
+  $("#effektrer").click( function(){
 
-        console.log("info");
+        console.log("effektrer");
 
         window.scrollTo({
-          top: 3700,
+          top: 3000,
           left: 0,
           behavior: 'smooth'
           });
         });
+  $("#info").click( function(){
+
+          console.log("info");
+
+          window.scrollTo({
+            top: 3700,
+            left: 0,
+            behavior: 'smooth'
+            });
+          });
