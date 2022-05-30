@@ -1,24 +1,21 @@
-
-
+  console.log("home");
 $("#home").click( function(){
 
-  console.log("home");
-
+console.log("home");
   window.scrollTo({
-    top: 0,
+    top: -1,
     left: 0,
     behavior: 'smooth'
     });
   });
 $("#Aboute").click( function(){
 
-  console.log("tjock");
+  window.scrollTo({
+    top: 3200,
+    left: 0,
+    behavior: 'smooth'
 
-  var element = document.getElementByClass(".tow-col");
-
-  element.scrollIntoView();
-  element.scrollIntoView({block: "start"});
-  element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+    });
 
   });
   //     $("#Aboute").click( function(){
@@ -37,27 +34,17 @@ $("#Aboute").click( function(){
       console.log("Fakta");
 
       window.scrollTo({
-        top: 2200,
+        top: 2400,
         left: 0,
         behavior: 'smooth'
         });
       });
-  $("#effektrer").click( function(){
-
-        console.log("effektrer");
-
-        window.scrollTo({
-          top: 3000,
-          left: 0,
-          behavior: 'smooth'
-          });
-        });
   $("#info").click( function(){
 
           console.log("info");
 
           window.scrollTo({
-            top: 3700,
+            top: 500000,
             left: 0,
             behavior: 'smooth'
             });

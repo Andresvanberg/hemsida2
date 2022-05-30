@@ -1,6 +1,6 @@
 <?php
 class view_startpage{
-  
+
 function printpage(){
 
 echo <<<html
@@ -32,9 +32,9 @@ echo <<<html
               <h1>Allergi Info</h1>
             <ul>
                 <li id="home"><a>Hem</a></li>
-                <li id="Aboute"><a href="#ruta1">Gluten</a></li>
-                <li id="Fakta"><a href="#tow-col">Laktos</a></li>
-                <li id="info"><a href="#mail">Kontakta</a></li>
+                <li id="Aboute"><a>Gluten</a></li>
+                <li id="Fakta"><a>Laktos</a></li>
+                <li id="info"><a>Kontakta</a></li>
             </ul>
         </div>
         <div class="topnav">
@@ -116,12 +116,26 @@ echo <<<html
       <div class="parallax5">
 
       </div>
+
+      <footer>
+      <br>
+      Kontakta:
+      <br>
+      andsva2@kfvelev.se
+      <br>
+      peteri1@kfvelev.se
+      <br>
+      <br>
+      <br>
+
+
+      </footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
     integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
     crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script>
-      <link rel="script" href="java.js">
+    <script src="java.js">
     </script>
 </body>
 </html>
